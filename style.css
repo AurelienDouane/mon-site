@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #c0392b;
+}
+
+a {
+    color: #2980b9;
+}
+
+h2 {
+    color: darkgray;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+    height: auto;
+    max-width: 100%;
+}
+
+.important {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cartes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.carte {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1;
+    border: 2px solid #c0392b;
+    transition: transform 0.2s;
+    min-width: 200px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: gray;
+}
+
+.carte:hover {
+    transform: translateY(-5px);
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c0392b;
+}
+
+html {
+    scroll-behavior: smooth;
+}
